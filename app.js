@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send('🚀 ECS + CodePipeline App Running');
+  res.send('🚀 ECS + CICD Running');
 });
 
 app.get('/health', (req, res) => {
