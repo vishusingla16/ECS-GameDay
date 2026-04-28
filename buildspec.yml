@@ -20,7 +20,7 @@ phases:
     commands:
       - echo Pushing image
       - docker push $REPOSITORY_URI:latest
-      - printf '[{"name":"container","imageUri":"%s"}]' $REPOSITORY_URI:latest > imagedefinitions.json
+      - printf '[{"name":"gameday","imageUri":"%s"}]' $REPOSITORY_URI:latest > imagedefinitions.json
 
 artifacts:
   files:
